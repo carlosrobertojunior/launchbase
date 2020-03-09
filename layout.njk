@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+
+        {% block head %}
+            <title> Carlos Felicio </title>
+        {% endblock %}
+            
+            <link rel="stylesheet" href="/Styles.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/"> Sobre </a>
+                <a href="/portifolio"> Projetos </a>
+            </div>     
+        </header>
+
+        {% block content %}  {% endblock %}
+
+    </body>
+
+</html>
